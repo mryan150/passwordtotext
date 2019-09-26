@@ -1,13 +1,16 @@
 {
-  "name": "My Extension",
+  "name": "Password to text",
   "version": "1",
   "manifest_version" : 2,
   "description": "Changes password type to text",
   "background" : {
-    "scripts" : ["background.js"]
+    "scripts" : ["background.js"],
+  "icons": "icon.png",
+  "credit" : "<a href=https://icon-library.net/icon/lock-and-unlock-icon-12.html>Lock And Unlock Icon #10739</a>"
   },
   "browser_action": {
     "default_icon": "logo.png"
   },
   "permissions": ["activeTab"]
+
 }
